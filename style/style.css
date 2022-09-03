@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Overpass-regular;
+    src: url('./overpass-font/Overpass-Regular.ttf');
+
+}
+
+@font-face{
+    font-family: Overpass-Light;
+    src: url('./overpass-font/Overpass-Light.ttf');
+}
+
+body
+{
+    background-color: black;
+    font-family: Overpass-regular;
+}
+
+div#main 
+{
+    width: var(--main-width);
+    margin: 5rem 5rem 5rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.attribution
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.attribution a
+{
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+
+div.container
+{
+    background-color: hsl(216, 12%, 8%);
+    height: 416px;
+    width: 412px;
+    border-radius: 30px;
+    
+}
+
+div.oval-icon-container
+{
+        width: 48px;
+        height: 48px;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        background: hsl(213, 19%, 18%);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+}
+
+
+div.container h1 
+{
+    text-align: left;   
+    color: hsl(0, 0%, 100%);
+    margin-top: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+
+}
+
+div.inner-container p
+{
+    color: hsl(217, 12%, 63%);
+    margin-right: 3rem;
+    margin-left: 3rem;
+    text-align: left;
+    font-size: 15px;
+}
+
+div.horizontal-list-container
+{
+    margin-right: 3rem;
+    margin-left: 3rem;   
+}
+
+div.rating
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.horizontal-list-container .rating button
+{
+    
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    color: hsl(217, 12%, 63%);
+    background: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    border-width: 0px;
+    font-family: Overpass-regular;
+    
+}
+
+.rating button:focus
+{
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+}
+
+.rating button:hover
+{
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+
+div.btn-container
+{  
+    width: 316px;
+    height: 45px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button.submit
+{
+    width: 314px;
+    height: 45px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    font-family: Overpass-Light;
+    font-weight: 700;
+    font: 15px;
+    border-width: 0px;
+}
+
+.submit:hover
+{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+
+
+
+
+
+
